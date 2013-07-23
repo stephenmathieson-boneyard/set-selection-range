@@ -1,0 +1,14 @@
+{
+  "name": "set-selection-range",
+  "repo": "stephenmathieson/set-selection-range",
+  "description": "Input#setSelectionRange component",
+  "version": "0.0.1",
+  "keywords": [ "input", "textarea", "selection", "setSelectionRange" ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

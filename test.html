@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>set selection range</title>
+  <script src="/build/build.js"></script>
+</head>
+<body>
+  <p><input type="text" id="mytextbox" size="20" value="Mozilla"/></p>
+  <p><button id="button">Select text</button></p>
+  <script>
+  !function(){
+    var button = document.getElementById('button')
+    var input = document.getElementById('mytextbox')
+    var select = require('set-selection-range')
+
+    function selectText() {
+      select(input, 2, 5)
+    }
+
+    button.addEventListener
+      ? button.addEventListener('click', selectText)
+      : button.attachEvent('onclick', selectText)
+  }()
+  </script>
+</body>
+</html>
